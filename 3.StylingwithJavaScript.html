@@ -4,58 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamic Styling</title>
-  <style>
-    .box {
-      width: 100px;
-      height: 100px;
-      background-color: lightblue;
-      margin: 10px;
-      display: inline-block;
-    }
-
-    .button {
-      padding: 10px 20px;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .button:hover {
-      background-color: #0056b3;
-    }
-
-    .hover-effect {
-      width: 100px;
-      height: 100px;
-      background-color: lightgreen;
-      margin: 10px;
-      display: inline-block;
-    }
-
-    .hover-effect:hover {
-      background-color: yellow;
-    }
-
-    .text {
-      font-size: 20px;
-      margin: 10px;
-    }
-
-    .hidden {
-      display: none;
-    }
-  </style>
+  <link rel="stylesheet" href="3.styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-  <h1>Dynamic Styling Example</h1>
-  <div id="box" class="box"></div>
-  <button id="colorButton" class="button">Change Box Color</button>
-  <div id="hoverDiv" class="hover-effect"></div>
-  <p id="text" class="text">Hover over the box above or click the button to change styles.</p>
-  <button id="toggleButton" class="button">Toggle Text Visibility</button>
-
-  <script src="3.StylingwithJavaScript.js"></script> <!-- Link to your JavaScript file -->
+  <div id="container">
+    <h1 id="heading" class="heading" onclick="toggleHeading()">Dynamic Styling Example</h1>
+    <div id="box" class="box" onclick="toggleBoxColor()">Click me to change shape and color</div>
+    <p id="paragraph" class="paragraph" onclick="toggleParagraph()">This is a paragraph. Click to change my alignment!</p>
+    <button id="button" class="button" onclick="toggleButton()">Click me to change my style</button>
+    <ul id="list" onclick="toggleList(event)">
+      <li class="list-item" onclick="toggleAlign(event)">List Item 1</li>
+      <li class="list-item" onclick="toggleAlign(event)">List Item 2</li>
+      <li class="list-item" onclick="toggleAlign(event)">List Item 3</li>
+    </ul>
+  </div>
+  <script src="3.script.js"></script> <!-- Link to external JavaScript file -->
 </body>
 </html>

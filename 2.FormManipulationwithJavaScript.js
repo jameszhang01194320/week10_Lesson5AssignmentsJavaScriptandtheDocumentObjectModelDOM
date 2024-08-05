@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
       // Here you can handle further actions like sending data to a server
       // For now, we'll just clear the form
-      form.reset();
+      // form.reset();
     });
   });
 

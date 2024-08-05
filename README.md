@@ -24,8 +24,8 @@ ________________________________________
 3. Styling with JavaScript
 
 Task 1: Create an HTML structure with at least 5 elements that will be styled dynamically.
-<="" code="" style="margin: 0px 0px 30px; padding: 0px; box-sizing: border-box; position: relative; display: block; min-height: 40px; width: 582.799px;">
 <div id="box" onclick="changeColor()">Click me to change color</div>
+
 Task 2: Write JavaScript code to dynamically change the color of the box element when clicked.
 
 Task 3: Implement additional styling changes based on user interaction, such as mouse hover effects or button clicks on different HTML elements.

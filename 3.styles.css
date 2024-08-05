@@ -1,0 +1,96 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Box element styling */
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  /* Box hover effect */
+  .box:hover {
+    background-color: lightcoral; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  /* Heading styling */
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: black; /* Default color */
+  }
+  
+  /* Paragraph styling */
+  .paragraph {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Paragraph hover effect */
+  .paragraph:hover {
+    background-color: lightgreen; /* Change color on hover */
+  }
+  
+  /* Button styling */
+  .button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  /* Button hover effect */
+  .button:hover {
+    background-color: #0056b3; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* List styling */
+  ul, ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* List item styling */
+  .list-item {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Default alignment */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  /* List item hover effect */
+  .list-item:hover {
+    background-color: lightcoral; /* Change color on hover */
+  }
+  
